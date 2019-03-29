@@ -26,7 +26,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation project(':journal-annotation')
-    debugImplementation project(':journal-bearer')
+    //implementation project(':journal-annotation')
+    //debugImplementation project(':journal-bearer')
+    //打印log注解
+    implementation 'com.github.ccbfm.Journal:journal-annotation:1.0.0'
+    //注解Aspect处理
+    debugImplementation 'com.github.ccbfm.Journal:journal-bearer:1.0.0'
 }
 
