@@ -1,4 +1,5 @@
 # Journal
+需要引入aspectj
 
 allprojects {
     repositories {
